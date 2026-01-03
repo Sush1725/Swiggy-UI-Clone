@@ -1,5 +1,13 @@
 import { FaArrowLeft,FaArrowRight } from "react-icons/fa";
 export default function Category() {
+  const [category, setCategory] = useSate([]);
+   const fetchCategory = ()=>{
+
+   }
+
+   useEffect(()=>{
+
+   },[])
   return (
     <div className="max-w-[1200px] mx-auto">
       <div className="flex my-3 items-center justify-between">

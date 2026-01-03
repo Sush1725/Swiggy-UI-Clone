@@ -67,8 +67,7 @@ export default function Header() {
           <div>
             <span className="font-bold border-b-[3px] border-b-[black] ">
               xyz
-            </span>
-            Delhi, New Delhi, India
+            </span> Delhi, New Delhi, India
             <RxCaretDown
               onClick={showSideMenu}
               fontSize={25}
