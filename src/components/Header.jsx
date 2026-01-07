@@ -59,7 +59,7 @@ export default function Header() {
           }}
         ></div>
       </div>
-      <header className="p-3 shadow-xl">
+      <header className="p-3 shadow-xl text-[#686b78] sticky top-0 z-[9999] bg-white">
         <div className="max-w-[1200px] mx-auto flex items-center">
           <div className="w-[100px]">
             <img src="/public/images/logo.png" className="w-full" alt="logo" />
@@ -74,7 +74,7 @@ export default function Header() {
               className="font-bold inline text-[#fc8019]"
             />
           </div>
-          <nav className="flex list-none gap-10 ml-auto text-[18px] font-semibold">
+          <nav className="hidden md:flex list-none gap-10 ml-auto text-[18px] font-semibold">
             {links.map((link, index) => {
               return (
                 <li

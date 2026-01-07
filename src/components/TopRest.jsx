@@ -24,27 +24,11 @@ export default function TopRest() {
           </div>
         </div>
       </div>
-       {/* <div className="flex overflow-hidden">
-        {restaurantChains.map((chains, index) => {
-          return (
-            <div
-            //   style={{
-            //     transform: `translateX(-${slide * 100}%)`,
-            //   }}
-              key={index}
-              className="w-[150px] shrink-0 duration-500 object-cover"
-            >
-              <img src={chains.image} alt={chains.name} />
-            </div>
-          );
-        })}
-      </div> */}
+
       <div className="flex gap-5 overflow-hidden">
-       {
-        data.map((d,i)=>{
-          return <Card {...d} key={i}/>
-        })
-       }
+        {data.map((d, i) => {
+          return <Card {...d} key={i} />;
+        })}
       </div>
     </div>
   );
