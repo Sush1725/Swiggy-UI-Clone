@@ -47,6 +47,7 @@ export default function Header() {
         style={{
           opacity: toggle ? 1 : 0,
           visibility: toggle ? "visible" : "hidden",
+          zIndex: 9999999
         }}
       >
         <div
@@ -74,12 +75,13 @@ export default function Header() {
               className="font-bold inline text-[#fc8019]"
             />
           </div>
-          <nav className="hidden md:flex list-none gap-10 ml-auto text-[18px] font-semibold">
-            {links.map((link, index) => {
+          <nav className="hidden md:flex list-none ml-auto text-[18px] font-semibold">
+           <ul className=" flex items-center gap-8">
+             {links.map((link, index) => {
               return (
                 <li
                   key={index}
-                  className="cursor-pointer flex items-center hover:text-[#fc8019] gap-3"
+                  className="flex items-center gap-2 cursor-pointer hover:text-[#fc8019]"
                 >
                   {link.icon}
                   {link.name}
@@ -87,6 +89,7 @@ export default function Header() {
                 </li>
               );
             })}
+           </ul>
           </nav>
         </div>
       </header>

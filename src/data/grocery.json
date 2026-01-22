@@ -1,0 +1,48 @@
+[
+    {
+        "image": "/images/veggies.jpg",
+        "path": "veggies"
+    },
+    {
+        "image": "/images/fruits.jpg",
+        "path": "fruits"
+    },
+    {
+        "image": "/images/dairy.jpg",
+        "path": "diary"
+    },
+    {
+        "image": "/images/rice.jpg",
+        "path": "rice"
+    },
+    {
+        "image": "/images/masala.jpg",
+        "path": "masala"
+    },
+    {
+        "image": "/images/oil.jpg",
+        "path": "oil"
+    },
+    {
+        "image": "/images/munchies.jpg",
+        "path": "munchies"
+    },
+    {
+        "image": "/images/Ice_Creams.jpg",
+        "path": "Ice_Creams"
+    },
+    {
+        "image": "/images/cold_drink.jpg",
+        "path": "cold-drink"
+    },
+    {
+        "image": "/images/biscuits.jpg",
+        "path": "biscuits"
+    }
+    ,
+    {
+        "image": "/images/frozen.jpg",
+        "path": "frozen"
+    }
+   
+]
