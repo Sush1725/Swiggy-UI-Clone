@@ -36,7 +36,7 @@ export default function FoodDelivery() {
   const visibleItems = expanded ? cities : cities.slice(0, 8);
 
   return (
-    <div className="max-w-[1200px] mx-auto px-4 my-14">
+    <div className="max-w-[1100px] mx-auto px-4 my-14">
       <h2 className="text-2xl font-bold mb-6">Cities with food delivery</h2>
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-5">
         {visibleItems.map((city) => (
