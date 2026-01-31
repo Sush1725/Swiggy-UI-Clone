@@ -7,7 +7,7 @@ export default function FoodDelivery() {
     "Order food online in Ranchi",
     "Order food online in Prayagraj",
     "Order food online in Delhi",
-    "Order food online in Gurgaon",
+    "Order food online in Thane",
     "Order food online in Jammu",
     "Order food online in Gangtok",
     "Order food online in Noida",

@@ -10,7 +10,7 @@ export default function TopRest() {
     setData(restaurantChains);
   }, []);
   return (
-    <div className="max-w-[1200px] mx-auto px-2">
+    <div className="max-w-[1200px] mx-auto px-2 mt-12">
       <div className="flex my-3 items-center justify-between">
         <div className="text-[25px] font-bold">
           Top restaurant chains in Delhi
@@ -30,6 +30,7 @@ export default function TopRest() {
           return <Card width="w-full md:w-[273px]" {...d} key={i} />;
         })}
       </div>
+      <hr className="h-px w-full bg-gray-400 border-0 mx-auto my-10" />
     </div>
   );
 }

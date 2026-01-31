@@ -154,7 +154,7 @@ function Footer() {
         </div>
       </div>
       <hr className="h-px w-full bg-gray-400 border-0 mx-auto my-6" />
-      <div className="max-w-[1200px] mx-auto pt-10">
+      <div className="max-w-[1200px] mx-auto pt-10 pb-6">
         <div className="px-4 mb-5">
           <div className="font-bold text-lg">Other cities that we deliver:</div>
         </div>

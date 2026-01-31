@@ -52,6 +52,10 @@ export default function Category() {
           );
         })}
       </div>
+
+       <hr className="h-px w-full bg-gray-400 border-0 mx-auto my-6" />
+
+
    
     </div>
   );
